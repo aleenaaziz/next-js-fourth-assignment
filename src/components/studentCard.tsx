@@ -1,6 +1,6 @@
 
 
-const StudentCard = ({ name, age, rollNumber, studentClass }) => {
+const StudentCard = ({ name, age, rollNumber, studentClass }:{ name:string; age:number; rollNumber:number; studentClass:string }) => {
     return (
       <div className="w-80 bg-white shadow-lg rounded-lg p-6">
         <h1 className="text-2xl font-bold text-center text-indigo-600 mb-4">
